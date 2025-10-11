@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -53,14 +52,16 @@ const Header = () => {
           if (whatsappCta) {
             whatsappCta.scrollIntoView({ behavior: 'smooth', block: 'center' });
             
-            // Apply attention effect after scroll
+            // Adiciona uma animação de "bounce" para chamar atenção inicial
             setTimeout(() => {
               const button = whatsappCta.querySelector('.whatsapp-cta-button');
               if (button) {
-                button.classList.add('animate-attention');
+                button.classList.add('animate-bounce');
+                
+                // Remove a animação após 2 segundos para que não fique pulando infinitamente
                 setTimeout(() => {
-                  button.classList.remove('animate-attention');
-                }, 4000);
+                  button.classList.remove('animate-bounce');
+                }, 2000);
               }
             }, 800);
             return;
