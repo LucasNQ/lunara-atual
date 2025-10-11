@@ -153,7 +153,7 @@ const ProductDetailSlug = () => {
 
                 {/* Trust Badges */}
                 <TrustBadges badges={[
-                  { icon: TrendingUp, text: "+300 vendas essa semana" },
+                  { icon: TrendingUp, text: `+${product.weeklySales || 0} vendas essa semana` },
                   { icon: Truck, text: "Frete Grátis para Todo o Brasil" },
                   { icon: ShieldCheck, text: "7 dias de Garantia" }
                 ]} />

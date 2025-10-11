@@ -24,7 +24,8 @@ export const useProducts = () => {
       slug: "kit-sos-crescimento",
       minicopy: "💆‍♀️ 7 ativos contra queda e falhas — clínica capilar em casa!",
       customButtonText: "Iniciar Meu Tratamento",
-      extraInfo: "Cupom CLIENTE10: ganhe 10% OFF"
+      extraInfo: "Cupom CLIENTE10: ganhe 10% OFF",
+      weeklySales: 130
     },
     {
       id: 13,
@@ -47,7 +48,8 @@ export const useProducts = () => {
       slug: "rosa-amazonica",
       minicopy: "🌸 11 benefícios em 1 sérum poderoso",
       customButtonText: "Ganhar Meu Glow Natural",
-      extraInfo: "🔥 Leve 2, Pague 1 – Oferta Relâmpago"
+      extraInfo: "🔥 Leve 2, Pague 1 – Oferta Relâmpago",
+      weeklySales: 100
     },
     {
       id: 11,
@@ -74,7 +76,8 @@ export const useProducts = () => {
       slug: "mascara-karseell",
       minicopy: "✨ Hidratação profunda e brilho desde a 1ª aplicação",
       customButtonText: "Resgatar a Saúde dos Meus Fios",
-      extraInfo: "🎁 Brinde: Óleo Karseell 50ml"
+      extraInfo: "🎁 Brinde: Óleo Karseell 50ml",
+      weeklySales: 100
     },
     {
       id: 14,
@@ -95,7 +98,8 @@ export const useProducts = () => {
       slug: "amora-miura",
       minicopy: "🍇 Equilíbrio e bem-estar sem hormônios",
       customButtonText: "Aliviar Meus Sintomas Já",
-      extraInfo: "💰 Kit 3 meses por R$187,90 (economize ainda mais)"
+      extraInfo: "💰 Kit 3 meses por R$187,90 (economize ainda mais)",
+      weeklySales: 80
     },
     {
       id: 4,
@@ -115,7 +119,8 @@ export const useProducts = () => {
       reviews: 514,
       badge: "Sem Formol",
       badgeColor: "bg-green-500",
-      slug: "progressiva-vegetal"
+      slug: "progressiva-vegetal",
+      weeklySales: 40
     },
     {
       id: 10,
@@ -135,7 +140,8 @@ export const useProducts = () => {
       reviews: 492,
       badge: "Queridinho",
       badgeColor: "bg-purple-400",
-      slug: "pente-alisador-portatil"
+      slug: "pente-alisador-portatil",
+      weeklySales: 20
     }
   ], []);
 
