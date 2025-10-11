@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MessageCircle } from 'lucide-react'; // Importar MessageCircle
+import { MessageCircle } from 'lucide-react';
 import {
   Dialog,
   DialogContent,
@@ -29,17 +29,16 @@ const FloatingWhatsAppButton = () => {
       >
         <OptimizedImage 
           src="lovable-uploads/whatsapp logo.png" 
-          alt="Ícone do WhatsApp" 
+          alt="Contato via WhatsApp" 
           className="w-full h-full object-cover rounded-full group-hover:scale-110 transition-transform duration-200" 
         />
       </button>
 
       {/* Modal Dialog */}
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
-        <DialogContent className="sm:max-w-md">
-          <DialogHeader>
-            {/* Removida a OptimizedImage do header */}
-            <DialogTitle className="flex items-center gap-2 text-xl">
+        <DialogContent className="sm:max-w-md mx-4 sm:rounded-lg">
+          <DialogHeader className="text-center">
+            <DialogTitle className="flex items-center justify-center gap-2 text-xl font-bold">
               <MessageCircle className="h-6 w-6 text-green-500" />
               Chamar no Suporte?
             </DialogTitle>
