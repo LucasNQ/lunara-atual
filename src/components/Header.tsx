@@ -52,18 +52,22 @@ const Header = () => {
           if (whatsappCta) {
             whatsappCta.scrollIntoView({ behavior: 'smooth', block: 'center' });
             
-            // Adiciona uma animação de "bounce" para chamar atenção inicial
-            setTimeout(() => {
-              const button = whatsappCta.querySelector('.whatsapp-cta-button');
-              if (button) {
-                button.classList.add('animate-bounce');
-                
-                // Remove a animação após 2 segundos para que não fique pulando infinitamente
-                setTimeout(() => {
-                  button.classList.remove('animate-bounce');
-                }, 2000);
-              }
-            }, 800);
+            const button = whatsappCta.querySelector('.whatsapp-cta-button');
+            if (button) {
+              // Remove a classe se ela já existir para reiniciar a animação
+              button.classList.remove('animate-gentle-focus');
+              
+              // Força o navegador a refazer o layout antes de adicionar a classe novamente
+              void (button as HTMLElement).offsetWidth; 
+              
+              // Adiciona a nova classe de animação com duração de 3 segundos
+              button.classList.add('animate-gentle-focus');
+              
+              // Remove a classe após a animação terminar para não interferir em cliques futuros
+              setTimeout(() => {
+                button.classList.remove('animate-gentle-focus');
+              }, 3000);
+            }
             return;
           }
         }
