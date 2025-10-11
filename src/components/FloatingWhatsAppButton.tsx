@@ -10,7 +10,7 @@ import {
 } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
 import OptimizedImage from '@/components/OptimizedImage';
-import whatsappIcon from '/public/whatsapp-logo.png';
+import whatsappIcon from '@/assets/images/whatsapp.png';
 
 const FloatingWhatsAppButton = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
