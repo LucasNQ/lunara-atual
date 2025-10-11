@@ -28,7 +28,7 @@ const FloatingWhatsAppButton = () => {
         aria-label="Contato via WhatsApp"
       >
         <OptimizedImage 
-          src="lovable-uploads/whatsapp logo.png" 
+          src="/whatsapp-logo.png" 
           alt="Contato via WhatsApp" 
           className="w-full h-full object-cover rounded-full group-hover:scale-110 transition-transform duration-200" 
         />
@@ -36,7 +36,7 @@ const FloatingWhatsAppButton = () => {
 
       {/* Modal Dialog */}
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
-        <DialogContent className="sm:max-w-md mx-4 sm:rounded-lg">
+        <DialogContent className="sm:max-w-md mx-4 sm:rounded-lg rounded-2xl">
           <DialogHeader className="text-center">
             <DialogTitle className="flex items-center justify-center gap-2 text-xl font-bold">
               <MessageCircle className="h-6 w-6 text-green-500" />
