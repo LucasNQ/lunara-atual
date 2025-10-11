@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MessageCircle } from 'lucide-react';
+import { MessageCircle } from 'lucide-react'; // Importar MessageCircle
 import {
   Dialog,
   DialogContent,
@@ -9,7 +9,7 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
-import OptimizedImage from '@/components/OptimizedImage'; // Importar OptimizedImage
+import OptimizedImage from '@/components/OptimizedImage';
 
 const FloatingWhatsAppButton = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -30,7 +30,7 @@ const FloatingWhatsAppButton = () => {
         <OptimizedImage 
           src="lovable-uploads/whatsapp logo.png" 
           alt="Ícone do WhatsApp" 
-          className="w-8 h-8 group-hover:scale-110 transition-transform duration-200" 
+          className="w-full h-full object-cover rounded-full group-hover:scale-110 transition-transform duration-200" 
         />
       </button>
 
@@ -38,29 +38,28 @@ const FloatingWhatsAppButton = () => {
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
         <DialogContent className="sm:max-w-md">
           <DialogHeader>
-            <OptimizedImage 
-              src="lovable-uploads/whatsapp logo.png" 
-              alt="Logo do WhatsApp" 
-              className="w-12 h-12 mx-auto mb-4" 
-            />
-            <DialogTitle className="text-center">Chamar no Suporte?</DialogTitle>
-            <DialogDescription className="text-center">
+            {/* Removida a OptimizedImage do header */}
+            <DialogTitle className="flex items-center gap-2 text-xl">
+              <MessageCircle className="h-6 w-6 text-green-500" />
+              Chamar no Suporte?
+            </DialogTitle>
+            <DialogDescription className="text-base pt-2">
               Você será redirecionado(a) para o nosso WhatsApp para conversar com uma de nossas atendentes.
             </DialogDescription>
           </DialogHeader>
-          <DialogFooter className="flex-col sm:flex-row gap-2">
+          <DialogFooter className="flex-row gap-2 pt-4">
             <Button 
               variant="outline" 
               onClick={() => setIsModalOpen(false)}
-              className="w-full sm:w-auto"
+              className="flex-1"
             >
-              Cancelar
+              Voltar
             </Button>
             <Button 
               onClick={handleWhatsAppRedirect}
-              className="w-full sm:w-auto bg-green-500 hover:bg-green-600"
+              className="flex-1 bg-green-500 hover:bg-green-600"
             >
-              Sim, chamar agora
+              Sim
             </Button>
           </DialogFooter>
         </DialogContent>
