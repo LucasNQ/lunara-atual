@@ -30,7 +30,7 @@ const HeroSection = () => {
         {/* Desktop Image */}
         <div className="w-full fade-in hidden md:block md:h-full">
           <OptimizedImage 
-            src="/lovable-uploads/55505b55-7b7f-4725-a602-48eec7ae7b42.png" 
+            src="/lovable-uploads/55505b55-7b7f-4725-a602-48eec7ae7b42.webp" 
             alt="Mulher com cabelo liso e saudável usando produtos Lunara" 
             className="w-full h-full object-cover object-top" 
             width={1200} 
