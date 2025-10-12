@@ -63,7 +63,7 @@ const CartDrawer = () => {
             </p>
             <Button 
               onClick={() => setIsDrawerOpen(false)} 
-              className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white rounded-lg px-16 py-6 text-lg font-bold"
+              className="btn-gradient text-white rounded-lg px-16 py-6 text-lg font-bold"
             >
               COMECE A COMPRAR
             </Button>
@@ -135,7 +135,7 @@ const CartDrawer = () => {
                {/* Individual Checkout Button */}
                 <Button
                   onClick={() => handleCoinzzCheckout(item)}
-                  className="w-full bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white py-2 text-xs font-bold rounded-lg flex items-center justify-center gap-2 mb-2"
+                  className="btn-gradient text-white w-full py-2 py-2 text-xs font-bold rounded-lg flex items-center justify-center gap-2 mb-2"
                 >
                   <Lock className="w-3 h-3" />
                   FINALIZAR COMPRA
@@ -178,15 +178,13 @@ const CartDrawer = () => {
             <Button
               onClick={() => setIsDrawerOpen(false)}
               variant="outline"
-              className="w-full py-3 text-sm font-bold rounded-lg border-2 border-transparent bg-white text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600 hover:bg-gradient-to-r hover:from-pink-50 hover:to-purple-50 border-gradient flex items-center justify-center gap-2"
+              className="w-full py-3 text-sm font-bold rounded-lg border-2 border-pink-500 text-pink-500 hover:bg-pink-50"
               style={{
-                borderImage: 'linear-gradient(45deg, #ec4899, #9333ea) 1'
+                borderImage: 'linear-gradient(45deg, #ec4899, #ec4899) 1'
               }}
             >
               <ArrowLeft className="w-4 h-4 text-pink-500" />
-              <span className="bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">
                 CONTINUAR COMPRANDO
-              </span>
             </Button>
           </div>
         </SheetFooter>
