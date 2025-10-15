@@ -16,7 +16,7 @@ const FloatingWhatsAppButton = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleWhatsAppRedirect = () => {
-    window.open('https://wa.me/5531984723813?text=Oi!+Estava+no+site+da+Lunara+e+estou+com+algumas+dúvidas.+Voc%C3%AA+pode+me+ajudar?+', '_blank');
+    window.open('https://wa.me/?phone=5531984723813&text=Olá!+Gostaria+de+falar+com+o+suporte+da+Lunara.+Fico+no+aguardo.', '_blank');
     setIsModalOpen(false);
   };
 
@@ -40,7 +40,6 @@ const FloatingWhatsAppButton = () => {
         <DialogContent className="w-[calc(100vw-2rem)] max-w-md rounded-2xl">
           <DialogHeader className="text-center">
             <DialogTitle className="flex items-center justify-center gap-2 text-xl font-bold">
-              <MessageCircle className="h-6 w-6 text-green-500" />
               Chamar no Suporte?
             </DialogTitle>
             <DialogDescription className="text-base pt-2">

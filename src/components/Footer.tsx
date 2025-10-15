@@ -29,7 +29,7 @@ const Footer = () => {
             <h4 className="text-base sm:text-lg font-semibold">Suporte</h4>
             <ul className="space-y-2 text-white text-sm sm:text-base">
               <li>
-                <a href="https://wa.me/5531984723813?text=Oi!+Estava+no+site+da+Lunara+e+estou+com+algumas+d%C3%BAvidas.+Voc%C3%AA+pode+me+ajudar?+" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400 transition-colors inline-block py-0">Suporte WhatsApp</a>
+                <a href="https://wa.me/?phone=5531984723813&text=Olá!+Gostaria+de+falar+com+o+suporte+da+Lunara.+Fico+no+aguardo." target="_blank" rel="noopener noreferrer" className="hover:text-pink-400 transition-colors inline-block py-0">Suporte WhatsApp</a>
               </li>
               
               
