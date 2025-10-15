@@ -75,13 +75,16 @@ const BenefitsSection = () => {
         {/* Header */}
         <div className="text-center mb-12 md:mb-16 max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 md:mb-6">
-            Resultados Comprovados por{' '}
+            A Autoestima que{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-purple-600">
-              Mais de 10 Mil Brasileiras
+              Você Merece
             </span>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 md:mb-6">
+            Começa Aqui
+            </h2>
           </h2>
           <p className="text-base md:text-lg text-gray-600 leading-relaxed">
-            Produtos que reduzem frizz em até 85%, clareiam manchas em 30 dias e fortalecem raízes capilares com ingredientes aprovados
+            Produtos dermatologicamente aprovados para tratar frizz, manchas, queda capilar e diversos outros cuidados.
           </p>
         </div>
 

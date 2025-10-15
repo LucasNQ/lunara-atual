@@ -138,7 +138,7 @@ const TestimonialsSection = () => {
               Tem alguma dúvida? Nossa equipe está pronta para ajudar!
             </p>
             <div className="flex justify-center">
-              <a href="https://wa.me/5531984723813?text=Oi!+Estava+no+site+da+Lunara+e+estou+com+algumas+dúvidas.+Voc%C3%AA+pode+me+ajudar?+" target="_blank" rel="noopener noreferrer" className="whatsapp-cta-button bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-semibold hover:scale-105 transform transition-transform duration-300 inline-block">
+              <a href="https://wa.me/?phone=5531984723813&text=Olá!+Gostaria+de+falar+com+o+suporte+da+Lunara.+Fico+no+aguardo." target="_blank" rel="noopener noreferrer" className="whatsapp-cta-button bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-semibold hover:scale-105 transform transition-transform duration-300 inline-block">
                 💬 Falar no WhatsApp
               </a>
             </div>
