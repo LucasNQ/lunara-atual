@@ -1,1 +1,1 @@
-O Caminho das imagens dos produtos, informações deles como o badge, preço e etc estão no arquivo [ src/hooks/useProducts.ts ]
+O Caminho das imagens dos produtos, informações deles como o badge, título, preço e etc estão no arquivo [ src/hooks/useProducts.ts ]
