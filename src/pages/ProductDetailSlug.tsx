@@ -166,11 +166,11 @@ const ProductDetailSlug = () => {
 
                 {/* Payment Methods */}
                 <div className="space-y-1 p-4 rounded-lg shadow-md bg-white border border-gray-100">
-                  <div className="text-center font-semibold text-gray-800 text-xs">
+                  <div className="text-center font-semibold text-gray-800 text-sm">
                     FORMAS DE PAGAMENTO
                   </div>
                   <div className="flex justify-center">
-                    <img src="/lovable-uploads/6c9e9b29-c188-44a5-8f34-a987698599fd.png" alt="Formas de pagamento: Visa, Mastercard, Hipercard, Elo, American Express, PIX e Boleto" className="max-w-full h-auto" />
+                    <img src="/lovable-uploads/payment-methods-pgn.png" alt="Formas de pagamento: Visa, Mastercard, Hipercard, Elo, American Express, PIX e Boleto" className="max-w-full h-auto" />
                   </div>
                 </div>
 
