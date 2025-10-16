@@ -37,9 +37,9 @@ const Header = () => {
   };
 
   const handleCartClick = () => {
-    setIsDrawerOpen(true);
-    setIsMenuOpen(false);
-  };
+      setIsMenuOpen(false); // Mantemos isso para fechar o menu mobile se estiver aberto
+      navigate('/cart'); // Esta é a linha principal da mudança
+    };
 
   const handleMenuItemClick = (href: string) => {
     setIsMenuOpen(false);
