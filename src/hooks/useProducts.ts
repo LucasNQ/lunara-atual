@@ -36,10 +36,10 @@ export const useProducts = () => {
       category: "Skincare",
       images: [
         "/lovable-uploads/rosa-amazonica-1.webp",
-        "/lovable-uploads/rosa-amazonica-.webp",
-        "/lovable-uploads/rosa-amazonica-.webp",
-        "/lovable-uploads/rosa-amazonica-.webp",
-        "/lovable-uploads/rosa-amazonica-.webp"
+        "/lovable-uploads/rosa-amazonica-2.webp",
+        "/lovable-uploads/rosa-amazonica-3.webp",
+        "/lovable-uploads/rosa-amazonica-4.webp",
+        "/lovable-uploads/rosa-amazonica-5.webp"
       ],
       rating: 4.8,
       reviews: 823,
