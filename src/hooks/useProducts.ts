@@ -89,7 +89,9 @@ export const useProducts = () => {
       images: [
         "/lovable-uploads/amora-miura-1.webp",
         "/lovable-uploads/amora-miura-2.webp",
-        "/lovable-uploads/amora-miura-3.webp"
+        "/lovable-uploads/amora-miura-3.webp",
+        "/lovable-uploads/amora-miura-4.webp",
+        "/lovable-uploads/amora-miura-5.webp"
       ],
       rating: 4.7,
       reviews: 712,
