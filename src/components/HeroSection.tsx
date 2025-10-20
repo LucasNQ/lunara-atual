@@ -19,7 +19,7 @@ const HeroSection = () => {
         {/* Mobile Image */}
         <div className="w-full fade-in h-[130vw] md:hidden">
           <OptimizedImage 
-            src="/lovable-uploads/hero-kit-sos.png" 
+            src="/lovable-uploads/hero-kit-sos.webp" 
             alt="Kit S.O.S Crescimento Lizz Ante - Tratamento que acelera o crescimento e revitaliza o brilho dos cabelos" 
             className="w-full h-full object-cover object-top"
             width={1200} 
