@@ -37,7 +37,7 @@ const Header = () => {
   };
 
   const handleCartClick = () => {
-    setIsDrawerOpen(true);
+    navigate('/cart');
     setIsMenuOpen(false);
   };
 
